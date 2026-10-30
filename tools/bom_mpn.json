@@ -4,12 +4,6 @@
     "MPN": "NC3FAH1",
     "LCSC": "C368476"
   },
-  "R1,R2,R11,R12": {
-    "Manufacturer": "UNI-ROYAL",
-    "MPN": "201007F6811T4E",
-    "LCSC": "C407009",
-    "Spec": "6.81k 1% 2010 0.75W 200V"
-  },
   "JP1,JP2": {
     "Manufacturer": "Molex",
     "MPN": "22284030",
@@ -34,16 +28,16 @@
     "LCSC": "C2500"
   },
   "R4,R5,R14,R15": {
-    "Manufacturer": "UNI-ROYAL",
-    "MPN": "0805W8F2201T5E",
-    "LCSC": "C17520",
-    "Spec": "2.2k 1% 0805"
+    "Manufacturer": "YAGEO",
+    "MPN": "RT0805BRD072K2L",
+    "LCSC": "C865371",
+    "Spec": "2.2k 0.1% 25ppm thin film 0805"
   },
   "R6,R7,R16,R17": {
-    "Manufacturer": "UNI-ROYAL",
-    "MPN": "0805W8F470JT5E",
-    "LCSC": "C17714",
-    "Spec": "47R 1% 0805"
+    "Manufacturer": "SIE",
+    "MPN": "CRF0805Q10R0BN",
+    "LCSC": "C55205321",
+    "Spec": "10R 0.1% thin film 0805"
   },
   "R8,R18": {
     "Manufacturer": "FOJAN",
@@ -100,5 +94,11 @@
     "MPN": "SMAJ16A",
     "LCSC": "C74561",
     "Spec": "TVS 16V standoff, 26V clamp, 400W, rail clamp for P48 hot-plug"
+  },
+  "R1,R2,R9,R10,R11,R12,R19,R20": {
+    "Manufacturer": "YAGEO",
+    "MPN": "RT1206BRD073K4L",
+    "LCSC": "C870711",
+    "Spec": "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k"
   }
 }

@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\USER\\Desktop\\test\\pcb-sample-preamp\\mic_preamp_2ch.kicad_sch")
-		(date "2026-10-30T11:25:29")
+		(date "2026-10-30T11:41:52")
 		(tool "Eeschema 10.0.6")
 		(sheet
 			(number "1")
@@ -117,7 +117,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d4ebfc54-9a24-48d8-9ff2-a3eb971d6007")
+			(tstamps "23df311a-57e2-4f5c-b4f7-14974f33203f")
 			(units
 				(unit
 					(name "A")
@@ -195,7 +195,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "93a89ac1-8d00-4b27-b02c-8c0ff2b5d35a")
+			(tstamps "7954afb7-b059-4592-8da2-625e052f35f9")
 			(units
 				(unit
 					(name "A")
@@ -273,7 +273,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "38691ea5-94ef-4220-b909-50033c4b8869")
+			(tstamps "0eac8852-1086-4bab-9cfa-c48d97ea0f78")
 			(units
 				(unit
 					(name "A")
@@ -351,7 +351,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e7ee9539-a177-415a-baf3-a443b84de776")
+			(tstamps "8a4142dd-be0f-4ce8-94fe-d4ec731e0671")
 			(units
 				(unit
 					(name "A")
@@ -429,7 +429,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b2600e7b-5d52-46e1-8d9d-7c8d73cc571b")
+			(tstamps "acd7110a-9f4c-4fd4-a5ef-bb819964ac12")
 			(units
 				(unit
 					(name "A")
@@ -507,7 +507,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f47dd349-95d9-4b64-aa10-72b563001832")
+			(tstamps "6e0e5c9a-1cfb-4c73-b799-f8fdf4645192")
 			(units
 				(unit
 					(name "A")
@@ -585,7 +585,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "87dde2dd-03c5-460f-91f4-26bc272a404b")
+			(tstamps "99aa378d-1246-4e4d-96a8-72fc5f04e28f")
 			(units
 				(unit
 					(name "A")
@@ -663,7 +663,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2717493d-0e54-4e52-b29d-049796d80d9a")
+			(tstamps "89509ce7-b8b2-47a1-82ac-22912684ea76")
 			(units
 				(unit
 					(name "A")
@@ -741,7 +741,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "335c024d-4cb9-467a-893e-0d4077dd40a8")
+			(tstamps "62be4167-195c-4ecc-9301-15a6702841d1")
 			(units
 				(unit
 					(name "A")
@@ -819,7 +819,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6140d4aa-5cf9-499b-ab65-1ac7627a74f9")
+			(tstamps "0c3df819-33e8-4a5e-b2b4-d33d8d952e86")
 			(units
 				(unit
 					(name "A")
@@ -897,7 +897,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "1be782fb-5f58-4554-96c6-cc33bbfbde87")
+			(tstamps "ff7062f2-f574-463b-85fd-01c90979d1cc")
 			(units
 				(unit
 					(name "A")
@@ -975,7 +975,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a95d6dd9-ac6f-49a7-b4cc-4a6ed9b0e961")
+			(tstamps "e89c6cd0-8b81-4bed-aa89-aa5b89619cef")
 			(units
 				(unit
 					(name "A")
@@ -1047,7 +1047,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a2d72899-8460-4c60-96bc-806ab2d8a473")
+			(tstamps "c90c65eb-4d89-4c46-8933-ce1115c76028")
 			(units
 				(unit
 					(name "A")
@@ -1122,7 +1122,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "82dc5207-a827-48ec-825e-31b6ac476be9")
+			(tstamps "4123f732-f815-4453-80c0-589b4c5ce48c")
 			(units
 				(unit
 					(name "A")
@@ -1197,7 +1197,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "263fe120-7945-4044-9df5-11c24b74ed49")
+			(tstamps "dc9bc741-6ffb-4c77-8c66-63c8303ec02b")
 			(units
 				(unit
 					(name "A")
@@ -1272,7 +1272,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e0cbe80f-5119-4ace-b165-c2098628ac0d")
+			(tstamps "b7ed3735-d87c-4207-8082-4f573e3548d3")
 			(units
 				(unit
 					(name "A")
@@ -1353,7 +1353,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "14542ea1-4d57-44fd-93a9-57beaef1933f")
+			(tstamps "73343969-4b19-49b0-901f-1164fab1638f")
 			(units
 				(unit
 					(name "A")
@@ -1431,7 +1431,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d72dcff5-cc65-4355-b9a4-e28f847b820e")
+			(tstamps "be6a5d5d-45c9-4a4c-b601-6d5489572120")
 			(units
 				(unit
 					(name "A")
@@ -1485,7 +1485,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0c2a99d5-70df-40b1-9439-0a47dde1f67d")
+			(tstamps "00b0d18f-231e-4ade-a4c5-16cdbba75f0f")
 			(units
 				(unit
 					(name "A")
@@ -1532,7 +1532,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "08413233-40f0-4dc6-9dff-5409735684a4")
+			(tstamps "5997e357-999c-4cfe-8901-3ed6a50c5480")
 			(units
 				(unit
 					(name "A")
@@ -1579,7 +1579,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5ad14938-97c3-4002-afce-20f9cc528789")
+			(tstamps "7b808dad-0eac-4efb-ac43-01c9d40ee536")
 			(units
 				(unit
 					(name "A")
@@ -1626,7 +1626,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e579b801-13bc-4746-ab5d-382dc9d4542d")
+			(tstamps "e3365c53-2535-48da-aae7-b374d3908ff1")
 			(units
 				(unit
 					(name "A")
@@ -1691,7 +1691,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "cd036a2b-532a-4788-ba53-8bdc5fef733a")
+			(tstamps "e9749885-bea2-4293-89c7-5117a926a517")
 			(units
 				(unit
 					(name "A")
@@ -1766,7 +1766,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c17f3792-8d5f-47ae-b342-04fd63ae7dbc")
+			(tstamps "11ef12b3-fd4f-487b-8775-efb90451fa48")
 			(units
 				(unit
 					(name "A")
@@ -1841,7 +1841,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "cd7f13c6-20d4-41e4-9c70-24368087b1e2")
+			(tstamps "6e016d6b-73d6-4e8a-832b-0a904c332e04")
 			(units
 				(unit
 					(name "A")
@@ -1916,7 +1916,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "fb168c62-b6e0-4e45-b40a-9fa2fb21155e")
+			(tstamps "26b2812b-3052-454d-93e5-fb90f931ad9b")
 			(units
 				(unit
 					(name "A")
@@ -1988,7 +1988,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "162ac7a4-8fee-49b1-b34c-4c493e069fbc")
+			(tstamps "f3070f8d-786b-429f-9a5d-8bcda47b60e6")
 			(units
 				(unit
 					(name "A")
@@ -2072,7 +2072,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "21334e68-b58e-4e95-862b-c1bac0973663")
+			(tstamps "289b2bdf-f856-406e-8069-9fa02922d53a")
 			(units
 				(unit
 					(name "A")
@@ -2153,7 +2153,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2ff0a8d5-65d4-4ef6-adc8-5deea4c0c293")
+			(tstamps "acfaa54c-9cfd-4214-92be-10a4d4b350eb")
 			(units
 				(unit
 					(name "A")
@@ -2173,20 +2173,20 @@
 		)
 		(comp
 			(ref "R1")
-			(value "6.81k")
-			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C407009")
+					(name "LCSC") "C870711")
 				(field
-					(name "MPN") "201007F6811T4E")
+					(name "MPN") "RT1206BRD073K4L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 				(field
-					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2200,19 +2200,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C407009")
+				(value "C870711")
 			)
 			(property
 				(name "MPN")
-				(value "201007F6811T4E")
+				(value "RT1206BRD073K4L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "6.81k 1% 2010 0.75W 200V")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 			)
 			(property
 				(name "Sheetname")
@@ -2234,7 +2234,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "80e7603c-a340-4cd1-96df-f37c9132bd9e")
+			(tstamps "41795e5c-b3c1-4e14-b4d8-abfe2fd37bb7")
 			(units
 				(unit
 					(name "A")
@@ -2251,20 +2251,20 @@
 		)
 		(comp
 			(ref "R2")
-			(value "6.81k")
-			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C407009")
+					(name "LCSC") "C870711")
 				(field
-					(name "MPN") "201007F6811T4E")
+					(name "MPN") "RT1206BRD073K4L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 				(field
-					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2278,19 +2278,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C407009")
+				(value "C870711")
 			)
 			(property
 				(name "MPN")
-				(value "201007F6811T4E")
+				(value "RT1206BRD073K4L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "6.81k 1% 2010 0.75W 200V")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 			)
 			(property
 				(name "Sheetname")
@@ -2312,7 +2312,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "fe24674f-0b3c-4eb0-908d-1d86f128806c")
+			(tstamps "819f93ae-6824-412b-89ba-d4a81295bd9d")
 			(units
 				(unit
 					(name "A")
@@ -2390,7 +2390,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "26eceda5-6602-452e-811f-cd4295190652")
+			(tstamps "1d6a5cd8-17f7-4180-a058-0b11df602c9e")
 			(units
 				(unit
 					(name "A")
@@ -2412,13 +2412,13 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17520")
+					(name "LCSC") "C865371")
 				(field
-					(name "MPN") "0805W8F2201T5E")
+					(name "MPN") "RT0805BRD072K2L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "2.2k 1% 0805")
+					(name "Spec") "2.2k 0.1% 25ppm thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -2434,19 +2434,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17520")
+				(value "C865371")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F2201T5E")
+				(value "RT0805BRD072K2L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "2.2k 1% 0805")
+				(value "2.2k 0.1% 25ppm thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -2468,7 +2468,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e975c6c6-c424-468a-97ef-df217b3c4356")
+			(tstamps "4a1bc259-6e83-41cc-8783-f4933f5f41c0")
 			(units
 				(unit
 					(name "A")
@@ -2490,13 +2490,13 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17520")
+					(name "LCSC") "C865371")
 				(field
-					(name "MPN") "0805W8F2201T5E")
+					(name "MPN") "RT0805BRD072K2L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "2.2k 1% 0805")
+					(name "Spec") "2.2k 0.1% 25ppm thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -2512,19 +2512,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17520")
+				(value "C865371")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F2201T5E")
+				(value "RT0805BRD072K2L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "2.2k 1% 0805")
+				(value "2.2k 0.1% 25ppm thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -2546,7 +2546,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "896d7c2d-ef6d-43d9-9b4f-21e8f7a60a46")
+			(tstamps "9049a92e-9a44-40a1-a289-4b8b0c268f3f")
 			(units
 				(unit
 					(name "A")
@@ -2563,18 +2563,18 @@
 		)
 		(comp
 			(ref "R6")
-			(value "47R")
+			(value "10R")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17714")
+					(name "LCSC") "C55205321")
 				(field
-					(name "MPN") "0805W8F470JT5E")
+					(name "MPN") "CRF0805Q10R0BN")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "SIE")
 				(field
-					(name "Spec") "47R 1% 0805")
+					(name "Spec") "10R 0.1% thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -2590,19 +2590,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17714")
+				(value "C55205321")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F470JT5E")
+				(value "CRF0805Q10R0BN")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "SIE")
 			)
 			(property
 				(name "Spec")
-				(value "47R 1% 0805")
+				(value "10R 0.1% thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -2624,7 +2624,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "76be6068-0efd-4b15-8d8c-8f4abef806d8")
+			(tstamps "dcd88689-0f2a-4efc-90e0-f9551dcb4c04")
 			(units
 				(unit
 					(name "A")
@@ -2641,18 +2641,18 @@
 		)
 		(comp
 			(ref "R7")
-			(value "47R")
+			(value "10R")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17714")
+					(name "LCSC") "C55205321")
 				(field
-					(name "MPN") "0805W8F470JT5E")
+					(name "MPN") "CRF0805Q10R0BN")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "SIE")
 				(field
-					(name "Spec") "47R 1% 0805")
+					(name "Spec") "10R 0.1% thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -2668,19 +2668,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17714")
+				(value "C55205321")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F470JT5E")
+				(value "CRF0805Q10R0BN")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "SIE")
 			)
 			(property
 				(name "Spec")
-				(value "47R 1% 0805")
+				(value "10R 0.1% thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -2702,7 +2702,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c8bec70b-3e03-4cc9-9106-53a2ecd5c690")
+			(tstamps "3d1a90bd-cbe8-40ca-9dc9-f5be894d8bfb")
 			(units
 				(unit
 					(name "A")
@@ -2780,7 +2780,163 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b8fb3125-194e-4991-9ae4-266857034e38")
+			(tstamps "12195263-ab65-49e0-ada2-34ff2891ebed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C870711")
+				(field
+					(name "MPN") "RT1206BRD073K4L")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C870711")
+			)
+			(property
+				(name "MPN")
+				(value "RT1206BRD073K4L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8f240ab3-4df1-4221-bc65-69e2245803ed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C870711")
+				(field
+					(name "MPN") "RT1206BRD073K4L")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C870711")
+			)
+			(property
+				(name "MPN")
+				(value "RT1206BRD073K4L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "583d948c-4c7f-45e2-8c49-33202d646efb")
 			(units
 				(unit
 					(name "A")
@@ -2797,20 +2953,20 @@
 		)
 		(comp
 			(ref "R11")
-			(value "6.81k")
-			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C407009")
+					(name "LCSC") "C870711")
 				(field
-					(name "MPN") "201007F6811T4E")
+					(name "MPN") "RT1206BRD073K4L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 				(field
-					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2824,19 +2980,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C407009")
+				(value "C870711")
 			)
 			(property
 				(name "MPN")
-				(value "201007F6811T4E")
+				(value "RT1206BRD073K4L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "6.81k 1% 2010 0.75W 200V")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 			)
 			(property
 				(name "Sheetname")
@@ -2858,7 +3014,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e37259ff-9cd6-4cb2-ae3c-fd5170fe312e")
+			(tstamps "b5d14536-a8cb-4e07-b4d4-3e5c86ebccc3")
 			(units
 				(unit
 					(name "A")
@@ -2875,20 +3031,20 @@
 		)
 		(comp
 			(ref "R12")
-			(value "6.81k")
-			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C407009")
+					(name "LCSC") "C870711")
 				(field
-					(name "MPN") "201007F6811T4E")
+					(name "MPN") "RT1206BRD073K4L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 				(field
-					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2902,19 +3058,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C407009")
+				(value "C870711")
 			)
 			(property
 				(name "MPN")
-				(value "201007F6811T4E")
+				(value "RT1206BRD073K4L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "6.81k 1% 2010 0.75W 200V")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
 			)
 			(property
 				(name "Sheetname")
@@ -2936,7 +3092,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d8f99865-9df8-4786-81a5-86b2daea4d95")
+			(tstamps "f0139e28-4ff4-4ca5-8277-0405c0ca747f")
 			(units
 				(unit
 					(name "A")
@@ -3014,7 +3170,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a00b97b2-cc1c-4150-882a-ad6f699d99ce")
+			(tstamps "6a9b3e85-6329-4fd0-8260-e1330a270b23")
 			(units
 				(unit
 					(name "A")
@@ -3036,13 +3192,13 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17520")
+					(name "LCSC") "C865371")
 				(field
-					(name "MPN") "0805W8F2201T5E")
+					(name "MPN") "RT0805BRD072K2L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "2.2k 1% 0805")
+					(name "Spec") "2.2k 0.1% 25ppm thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -3058,19 +3214,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17520")
+				(value "C865371")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F2201T5E")
+				(value "RT0805BRD072K2L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "2.2k 1% 0805")
+				(value "2.2k 0.1% 25ppm thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -3092,7 +3248,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "57736103-ae22-4ce6-970c-abc96b094e7b")
+			(tstamps "adcd5e56-52b9-456a-b317-70d93c498fdd")
 			(units
 				(unit
 					(name "A")
@@ -3114,13 +3270,13 @@
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17520")
+					(name "LCSC") "C865371")
 				(field
-					(name "MPN") "0805W8F2201T5E")
+					(name "MPN") "RT0805BRD072K2L")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Spec") "2.2k 1% 0805")
+					(name "Spec") "2.2k 0.1% 25ppm thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -3136,19 +3292,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17520")
+				(value "C865371")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F2201T5E")
+				(value "RT0805BRD072K2L")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "YAGEO")
 			)
 			(property
 				(name "Spec")
-				(value "2.2k 1% 0805")
+				(value "2.2k 0.1% 25ppm thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -3170,7 +3326,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d3978eb5-f58f-47c4-8d65-1958b492d46c")
+			(tstamps "a50e0d20-b90d-417f-b7cc-069185cce48d")
 			(units
 				(unit
 					(name "A")
@@ -3187,18 +3343,18 @@
 		)
 		(comp
 			(ref "R16")
-			(value "47R")
+			(value "10R")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17714")
+					(name "LCSC") "C55205321")
 				(field
-					(name "MPN") "0805W8F470JT5E")
+					(name "MPN") "CRF0805Q10R0BN")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "SIE")
 				(field
-					(name "Spec") "47R 1% 0805")
+					(name "Spec") "10R 0.1% thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -3214,19 +3370,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17714")
+				(value "C55205321")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F470JT5E")
+				(value "CRF0805Q10R0BN")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "SIE")
 			)
 			(property
 				(name "Spec")
-				(value "47R 1% 0805")
+				(value "10R 0.1% thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -3248,7 +3404,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "ea03c645-9e40-4d89-a035-c52507a6f78d")
+			(tstamps "c9682740-43b0-40d5-a258-2b373c5eab79")
 			(units
 				(unit
 					(name "A")
@@ -3265,18 +3421,18 @@
 		)
 		(comp
 			(ref "R17")
-			(value "47R")
+			(value "10R")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "LCSC") "C17714")
+					(name "LCSC") "C55205321")
 				(field
-					(name "MPN") "0805W8F470JT5E")
+					(name "MPN") "CRF0805Q10R0BN")
 				(field
-					(name "Manufacturer") "UNI-ROYAL")
+					(name "Manufacturer") "SIE")
 				(field
-					(name "Spec") "47R 1% 0805")
+					(name "Spec") "10R 0.1% thin film 0805")
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
@@ -3292,19 +3448,19 @@
 			)
 			(property
 				(name "LCSC")
-				(value "C17714")
+				(value "C55205321")
 			)
 			(property
 				(name "MPN")
-				(value "0805W8F470JT5E")
+				(value "CRF0805Q10R0BN")
 			)
 			(property
 				(name "Manufacturer")
-				(value "UNI-ROYAL")
+				(value "SIE")
 			)
 			(property
 				(name "Spec")
-				(value "47R 1% 0805")
+				(value "10R 0.1% thin film 0805")
 			)
 			(property
 				(name "Sheetname")
@@ -3326,7 +3482,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a8b7f7da-85a4-4422-a42f-b941e869bbb7")
+			(tstamps "23d66f78-2565-4d8a-bd36-16b62fb3ed4d")
 			(units
 				(unit
 					(name "A")
@@ -3404,7 +3560,163 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2fe758bf-a363-4007-b370-806a1f990710")
+			(tstamps "423ddc01-97f9-4704-8749-5196649b4d74")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C870711")
+				(field
+					(name "MPN") "RT1206BRD073K4L")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C870711")
+			)
+			(property
+				(name "MPN")
+				(value "RT1206BRD073K4L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "473a2cb2-592c-4462-9d17-deecc5568618")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "3.40k")
+			(footprint "Resistor_SMD:R_1206_3216Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C870711")
+				(field
+					(name "MPN") "RT1206BRD073K4L")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C870711")
+			)
+			(property
+				(name "MPN")
+				(value "RT1206BRD073K4L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "3.40k 0.1% 25ppm thin film 1206 0.25W 200V; 2 in series per leg = 6.80k")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "05b658d3-5075-456e-bed9-19d3c5003b2f")
 			(units
 				(unit
 					(name "A")
@@ -3468,7 +3780,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4860b1ab-5766-466b-8454-1ce35432acf0")
+			(tstamps "17c458a4-07d2-4cc4-ac97-33206fd8b33f")
 			(units
 				(unit
 					(name "A")
@@ -3568,7 +3880,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "147994b4-c2e6-4c87-a2b0-c665280f72e6")
+			(tstamps "75fd1f01-c095-4955-b4f4-1b73f617bbbc")
 			(units
 				(unit
 					(name "A")
@@ -4660,6 +4972,66 @@
 		)
 		(net
 			(code "15")
+			(name "/P1C")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/P1H")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/P2C")
+			(class "Default")
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/P2H")
+			(class "Default")
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
 			(name "/P48OFF1")
 			(class "Default")
 			(node
@@ -4675,7 +5047,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "20")
 			(name "/P48OFF2")
 			(class "Default")
 			(node
@@ -4691,7 +5063,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "21")
 			(name "/PH1")
 			(class "Default")
 			(node
@@ -4701,18 +5073,18 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R1")
+				(ref "R10")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "R2")
+				(ref "R9")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "18")
+			(code "22")
 			(name "/PH2")
 			(class "Default")
 			(node
@@ -4722,18 +5094,18 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R11")
+				(ref "R19")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "R12")
+				(ref "R20")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "19")
+			(code "23")
 			(name "/RG1A")
 			(class "Default")
 			(node
@@ -4749,7 +5121,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "24")
 			(name "/RG1B")
 			(class "Default")
 			(node
@@ -4765,7 +5137,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "25")
 			(name "/RG2A")
 			(class "Default")
 			(node
@@ -4781,7 +5153,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "26")
 			(name "/RG2B")
 			(class "Default")
 			(node
@@ -4797,7 +5169,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "27")
 			(name "/XLR1_COLD")
 			(class "Default")
 			(node
@@ -4817,7 +5189,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "28")
 			(name "/XLR1_HOT")
 			(class "Default")
 			(node
@@ -4837,7 +5209,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "29")
 			(name "/XLR2_COLD")
 			(class "Default")
 			(node
@@ -4857,7 +5229,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "30")
 			(name "/XLR2_HOT")
 			(class "Default")
 			(node
@@ -4877,7 +5249,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "31")
 			(name "unconnected-(U1-NC-Pad2)")
 			(class "Default")
 			(node
@@ -4888,7 +5260,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "32")
 			(name "unconnected-(U1-NC-Pad7)")
 			(class "Default")
 			(node
@@ -4899,7 +5271,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "33")
 			(name "unconnected-(U1-NC-Pad13)")
 			(class "Default")
 			(node
@@ -4910,7 +5282,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "34")
 			(name "unconnected-(U1-VO1-Pad1)")
 			(class "Default")
 			(node
@@ -4921,7 +5293,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "35")
 			(name "unconnected-(U1-VO2-Pad14)")
 			(class "Default")
 			(node
@@ -4932,7 +5304,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "36")
 			(name "unconnected-(U2-NC-Pad2)")
 			(class "Default")
 			(node
@@ -4943,7 +5315,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "37")
 			(name "unconnected-(U2-NC-Pad7)")
 			(class "Default")
 			(node
@@ -4954,7 +5326,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "38")
 			(name "unconnected-(U2-NC-Pad13)")
 			(class "Default")
 			(node
@@ -4965,7 +5337,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "39")
 			(name "unconnected-(U2-VO1-Pad1)")
 			(class "Default")
 			(node
@@ -4976,7 +5348,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "40")
 			(name "unconnected-(U2-VO2-Pad14)")
 			(class "Default")
 			(node

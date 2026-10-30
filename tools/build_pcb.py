@@ -20,36 +20,191 @@ JAVA = r"C:\Users\USER\tools\jre25\jdk-25.0.5+8-jre\bin\java.exe"
 FR_JAR = r"C:\Users\USER\Documents\KiCad\10.0\3rdparty\plugins\app_freerouting_kicad-plugin\jar\freerouting-2.4.1.jar"
 mm = pcbnew.FromMM
 
-HV_NETS = ["+48V", "PH1", "PH2", "XLR1_HOT", "XLR1_COLD", "XLR2_HOT", "XLR2_COLD", "P48OFF1", "P48OFF2"]
+HV_NETS = ["+48V", "PH1", "PH2", "XLR1_HOT", "XLR1_COLD", "XLR2_HOT", "XLR2_COLD", "P48OFF1", "P48OFF2",
+           "P1H", "P1C", "P2H", "P2C"]
 POWER_NETS = ["GND", "+15V", "-15V"]
 
 
-def channel(n, cx):
-    o = 0 if n == 1 else 10
-    r = lambda i: f"R{i + o}"
-    c = lambda i: f"C{i + o}"
-    d = lambda i: f"D{i + o}"
-    return {
-        r(1): (cx - 7, 51.5, 90), r(2): (cx + 1, 51.5, 90),
-        f"JP{n}": (cx + 8.5, 47.5, 0), r(3): (cx + 12.5, 51, 90),
-        c(1): (cx - 13.5, 39, 0), c(2): (cx + 2.5, 39, 0),
-        d(1): (cx - 9, 29.5, 0), d(2): (cx + 1, 29.5, 0),
-        r(4): (cx - 9, 25, 0), r(5): (cx + 1, 25, 0),
-        r(6): (cx - 6, 20.5, 0), r(7): (cx - 2, 20.5, 0),
-        f"U{n}": (cx, 13, 0), r(8): (cx, 6.5, 0),
-        c(3): (cx + 6.5, 11, 90), c(4): (cx - 6.5, 16.5, 90),
-    }
+CX = {1: 25.0, 2: 75.0}           # truc giua moi kenh
+LEG = 5.75                         # nua khoang cach 2 chan hot/cold (2 tu 10 mm dat canh nhau)
+W_HV, W_SIG = 0.4, 0.3
+Y_CAP = 50.0                       # pad duoi cua tu chan DC (phia XLR)
+Y_D, Y_BIAS, Y_RS = 40.5, 36.0, 31.9
+Y_CONV = 22.5                      # het doan cheo, vao chan IC thang dung
 
-
-PLACE = {**channel(1, 25), **channel(2, 75),
+# Linh kien KHONG nam tren duong tin hieu: dat theo toa do co dinh.
+PLACE = {"JP1": (45.5, 38, 0), "R3": (47.5, 52, 90), "JP2": (54.5, 38, 0), "R13": (52.5, 52, 90),
          "J3": (39, 4, 90), "C21": (44, 9.5, 0), "C22": (44, 13, 0),
          "J5": (56, 4, 90), "D21": (51, 9, 0), "D22": (51, 14, 0),
-         "J4": (68, 4, 90), "C23": (48.5, 44, 90), "C24": (66, 9.5, 0),
+         "J4": (68, 4, 90), "C23": (48.25, 30, 0), "C24": (66, 9.5, 0),
          "H1": (4, 4, 0), "H2": (96, 4, 0), "H3": (4, H - 4, 0), "H4": (96, H - 4, 0)}
 
-
 # Vi tri chu tham chieu (toa do board) cho cho bi de.
-REF_AT = {"U1": (28, 19.6), "U2": (78, 19.6), "J4": (69.3, 7.2), "D22": (51, 16.6)}
+REF_AT = {"U1": (CX[1] + 5.5, 17.6), "U2": (CX[2] + 5.5, 17.6), "J4": (69.3, 7.2), "D22": (51, 16.6)}
+
+
+def chain_refs(n):
+    o = 0 if n == 1 else 10
+    return {"Ch": f"C{1 + o}", "Cc": f"C{2 + o}", "Rh1": f"R{1 + o}", "Rh2": f"R{9 + o}",
+            "Rc1": f"R{2 + o}", "Rc2": f"R{10 + o}", "Dh": f"D{1 + o}", "Dc": f"D{2 + o}",
+            "Rbh": f"R{4 + o}", "Rbc": f"R{5 + o}", "Rsh": f"R{6 + o}", "Rsc": f"R{7 + o}",
+            "Rg": f"R{8 + o}", "U": f"U{n}", "Cp": f"C{3 + o}", "Cn": f"C{4 + o}", "J": f"J{n}"}
+
+
+def V(x, y):
+    return pcbnew.VECTOR2I(mm(x), mm(y))
+
+
+def P(b, ref, num):
+    for p in b.FindFootprintByReference(ref).Pads():
+        if p.GetNumber() == num:
+            q = p.GetPosition()
+            return q.x / 1e6, q.y / 1e6
+    raise KeyError(f"{ref}.{num}")
+
+
+def at_pad(b, ref, num, x, y, rot):
+    """Dat footprint sao cho pad `num` roi dung (x, y) sau khi quay `rot`."""
+    fp = b.FindFootprintByReference(ref)
+    fp.SetOrientationDegrees(rot)
+    fp.SetPosition(V(0, 0))
+    px, py = P(b, ref, num)
+    fp.SetPosition(V(x - px, y - py))
+
+
+def place_channel(b, n):
+    k, cx = chain_refs(n), CX[n]
+    xc, xh = cx - LEG, cx + LEG
+    at_pad(b, k["Cc"], "1", xc, Y_CAP, 90)
+    at_pad(b, k["Ch"], "1", xh, Y_CAP, 90)
+    assert abs(P(b, k["Cc"], "2")[1] - (Y_CAP - 5)) < 1e-3, "tu phai dung doc, pad2 phia tren"
+    # Phantom: 2 x 1206 noi tiep, toa ra ngoai tu hai pad duoi cua tu.
+    at_pad(b, k["Rc1"], "2", xc - 6.2, Y_CAP, 0)
+    at_pad(b, k["Rc2"], "2", P(b, k["Rc1"], "1")[0] - 2.0, Y_CAP, 0)
+    at_pad(b, k["Rh1"], "2", xh + 6.2, Y_CAP, 180)
+    at_pad(b, k["Rh2"], "2", P(b, k["Rh1"], "1")[0] + 2.0, Y_CAP, 180)
+    # Kep diode va R bias: shunt ra ngoai, chan noi vao chan tin hieu huong vao trong.
+    at_pad(b, k["Dc"], "3", xc - 1.7, Y_D, 0)
+    at_pad(b, k["Dh"], "3", xh + 1.7, Y_D, 180)
+    at_pad(b, k["Rbc"], "1", xc - 1.5, Y_BIAS, 180)
+    at_pad(b, k["Rbh"], "1", xh + 1.5, Y_BIAS, 0)
+    # R noi tiep nam THANG tren chan tin hieu.
+    at_pad(b, k["Rsc"], "1", xc, Y_RS, 90)
+    at_pad(b, k["Rsh"], "1", xh, Y_RS, 90)
+    assert P(b, k["Rsc"], "2")[1] < Y_RS, "R noi tiep: pad2 phai o phia IC"
+    # IC quay 90: hang chan duoi (1..7) huong ve XLR, ngo ra (8, 9) o hang tren.
+    at_pad(b, k["U"], "4", cx - 0.635, 20.475, 90)
+    (x5, y5), (x9, y9) = P(b, k["U"], "5"), P(b, k["U"], "9")
+    assert abs(x5 - (cx + 0.635)) < 1e-3 and abs(y5 - 20.475) < 1e-3 and y9 < y5, (x5, y5, y9)
+    at_pad(b, k["Rg"], "1", cx - 6.635, 18.95, 90)
+    at_pad(b, k["Cp"], "1", P(b, k["U"], "11")[0], 12.75, 90)
+    at_pad(b, k["Cn"], "2", P(b, k["U"], "6")[0] + 3.45, 21.9, 180)
+    # Chu tham chieu: tu o tam than tu, con lai day ra phia ngoai kenh cho khoi de nhau.
+    refpos = {k["Cc"]: (xc, Y_CAP - 2.5), k["Ch"]: (xh, Y_CAP - 2.5),
+              k["Rc1"]: (P(b, k["Rc1"], "1")[0] + 1.46, Y_CAP + 1.9),
+              k["Rc2"]: (P(b, k["Rc2"], "1")[0] + 1.46, Y_CAP + 1.9),
+              k["Rh1"]: (P(b, k["Rh1"], "1")[0] - 1.46, Y_CAP + 1.9),
+              k["Rh2"]: (P(b, k["Rh2"], "1")[0] - 1.46, Y_CAP + 1.9),
+              k["Dc"]: (xc - 6.1, Y_D), k["Dh"]: (xh + 6.1, Y_D),
+              k["Rbc"]: (xc - 5.6, Y_BIAS), k["Rbh"]: (xh + 5.6, Y_BIAS)}
+    for ref, (x, y) in refpos.items():
+        b.FindFootprintByReference(ref).Reference().SetPosition(V(x, y))
+
+
+def track(b, pts, net, layer, w):
+    ni = b.FindNet(net)
+    assert ni is not None, net
+    for (x1, y1), (x2, y2) in zip(pts, pts[1:]):
+        if (x1, y1) == (x2, y2):
+            continue
+        t = pcbnew.PCB_TRACK(b)
+        t.SetStart(V(x1, y1))
+        t.SetEnd(V(x2, y2))
+        t.SetWidth(mm(w))
+        t.SetLayer(layer)
+        t.SetNet(ni)
+        t.SetLocked(True)
+        b.Add(t)
+
+
+def gnd_via(b, x, y):
+    v = pcbnew.PCB_VIA(b)
+    v.SetPosition(V(x, y))
+    v.SetDrill(mm(0.3))
+    v.SetWidth(pcbnew.F_Cu, mm(0.6))
+    v.SetNet(b.FindNet("/GND"))
+    v.SetLocked(True)
+    b.Add(v)
+
+
+def hand_route(b, n):
+    """Di tay toan bo duong tin hieu vao cua kenh n: doi xung hot/cold, ngan, ngo ra tach khoi ngo vao."""
+    k, cx = chain_refs(n), CX[n]
+    xc, xh = cx - LEG, cx + LEG
+    F, B = pcbnew.F_Cu, pcbnew.B_Cu
+    s = lambda name: f"/{name}{n}" if name in ("PH",) else f"/{name}"
+    hot, cold = f"/XLR{n}_HOT", f"/XLR{n}_COLD"
+    (x2, y2), (x3, y3) = P(b, k["J"], "2"), P(b, k["J"], "3")
+    # XLR -> tu: cold tren F.Cu, hot tren B.Cu (2 chan phai bat cheo 1 lan vi thu tu chan XLR nguoc thu tu IC).
+    ya = y3 - 2.0
+    assert ya - (x3 - xc) >= Y_CAP, "doan cheo cold khong du cho"
+    track(b, [(x3, y3), (x3, ya), (xc, ya - (x3 - xc)), (xc, Y_CAP)], cold, F, W_HV)
+    yb = y2 - 3.7
+    assert yb - (xh - x2) >= Y_CAP, "doan cheo hot khong du cho"
+    track(b, [(x2, y2), (x2, yb), (xh, yb - (xh - x2)), (xh, Y_CAP)], hot, B, W_HV)
+    # Phantom: tu pad duoi tu ra cap dien tro.
+    track(b, [P(b, k["Cc"], "1"), P(b, k["Rc1"], "2")], cold, F, W_HV)
+    track(b, [P(b, k["Rc1"], "1"), P(b, k["Rc2"], "2")], f"/P{n}C", F, W_HV)
+    track(b, [P(b, k["Ch"], "1"), P(b, k["Rh1"], "2")], hot, F, W_HV)
+    track(b, [P(b, k["Rh1"], "1"), P(b, k["Rh2"], "2")], f"/P{n}H", F, W_HV)
+    for side, x, sgn in (("N", xc, -1), ("P", xh, +1)):
+        C, D, Rb, Rs = (k["Cc"], k["Dc"], k["Rbc"], k["Rsc"]) if side == "N" else (k["Ch"], k["Dh"], k["Rbh"], k["Rsh"])
+        prot, inp = f"/IN{n}{side}_PROT", f"/IN{n}{side}"
+        track(b, [P(b, C, "2"), P(b, Rs, "1")], prot, F, W_SIG)
+        track(b, [P(b, D, "3"), (x, P(b, D, "3")[1])], prot, F, W_SIG)
+        track(b, [P(b, Rb, "1"), (x, P(b, Rb, "1")[1])], prot, F, W_SIG)
+        gx, gy = P(b, Rb, "2")
+        track(b, [(gx, gy), (gx + sgn * 1.3, gy)], "/GND", F, W_SIG)
+        gnd_via(b, gx + sgn * 1.3, gy)
+        # Hoi tu doi xung vao chan IC.
+        pin = P(b, k["U"], "4" if side == "N" else "5")
+        dx = abs(x - pin[0])
+        track(b, [P(b, Rs, "2"), (x, Y_CONV + dx), (pin[0], Y_CONV), pin], inp, F, W_SIG)
+    # RG: vong quanh dau IC, ngan nhat co the.
+    (x3u, y3u), (x12, y12) = P(b, k["U"], "3"), P(b, k["U"], "12")
+    xr = P(b, k["Rg"], "1")[0]
+    track(b, [(x3u, y3u), (x3u, 21.9), (xr, 21.9), P(b, k["Rg"], "1")], f"/RG{n}A", F, W_SIG)
+    track(b, [(x12, y12), (x12, 14.1), (xr, 14.1), P(b, k["Rg"], "2")], f"/RG{n}B", F, W_SIG)
+    # Decoupling + Ref + noi Sense/VO o hang tren.
+    track(b, [P(b, k["U"], "11"), P(b, k["Cp"], "1")], "/+15V", F, W_SIG)
+    cx2, cy2 = P(b, k["Cp"], "2")
+    track(b, [(cx2, cy2), (cx2, cy2 - 1.3)], "/GND", F, W_SIG)
+    gnd_via(b, cx2, cy2 - 1.3)
+    x10, y10 = P(b, k["U"], "10")
+    track(b, [(x10, y10), (x10, 13.6)], "/GND", F, W_SIG)
+    gnd_via(b, x10, 13.6)
+    (x9, y9), (x8, y8) = P(b, k["U"], "9"), P(b, k["U"], "8")
+    out = f"/OUT{n}"
+    track(b, [(x9, y9), (x9, 14.0), (x8, 14.0), (x8, y8)], out, F, W_SIG)
+    # Ngo ra: via canh IC, chay B.Cu len vung connector phia tren — xa han ngo vao (datasheet tr.6).
+    vx = x8 + 1.2
+    track(b, [(x8, 14.0), (vx, 14.0)], out, F, W_SIG)
+    v = pcbnew.PCB_VIA(b)
+    v.SetPosition(V(vx, 14.0))
+    v.SetDrill(mm(0.3))
+    v.SetWidth(pcbnew.F_Cu, mm(0.6))
+    v.SetNet(b.FindNet(out))
+    v.SetLocked(True)
+    b.Add(v)
+    jx, jy = P(b, "J5", "1" if n == 1 else "3")
+    y_bus = 7.5
+    knee = jx - (y_bus - jy) if n == 1 else jx + (y_bus - jy)
+    track(b, [(vx, 14.0), (vx, y_bus), (knee, y_bus), (jx, jy)], out, B, W_SIG)
+    x6, y6 = P(b, k["U"], "6")
+    track(b, [(x6, y6), (x6, 21.9), P(b, k["Cn"], "2")], "/-15V", F, W_SIG)
+    nx, ny = P(b, k["Cn"], "1")
+    track(b, [(nx, ny), (nx + 1.3, ny)], "/GND", F, W_SIG)
+    gnd_via(b, nx + 1.3, ny)
 
 
 def netlist():
@@ -111,12 +266,19 @@ def place():
                 pad.SetLocalZoneConnection(pcbnew.ZONE_CONNECTION_FULL)
         if ref.startswith("J") and lib == "Connector_Audio":
             place_xlr(fp, 25 if ref == "J1" else 75)
-        else:
+        elif ref in PLACE:
             x, y, rot = PLACE[ref]
             fp.SetOrientationDegrees(rot)
             fp.SetPosition(pcbnew.VECTOR2I(mm(x), mm(y)))
-        if ref in REF_AT:
-            fp.Reference().SetPosition(pcbnew.VECTOR2I(mm(REF_AT[ref][0]), mm(REF_AT[ref][1])))
+    for n in (1, 2):
+        place_channel(b, n)
+    placed = set(PLACE) | {r for n in (1, 2) for r in chain_refs(n).values()}
+    missing = [r for r in comps if r not in placed]
+    assert not missing, f"chua co vi tri: {missing}"
+    for ref, (x, y) in REF_AT.items():
+        b.FindFootprintByReference(ref).Reference().SetPosition(V(x, y))
+    for n in (1, 2):
+        hand_route(b, n)
     outline(b)
     ds = b.GetDesignSettings()
     ds.m_TrackMinWidth = mm(0.15)   # neck-down vao chan SOIC 1.27 mm; JLC/PCBWay lam duoc 0.1 mm

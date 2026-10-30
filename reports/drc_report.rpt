@@ -1,16 +1,8 @@
 ** Drc report for mic_preamp_2ch.kicad_pcb **
-** Created on 2026-10-30T11:26:09 **
+** Created on 2026-10-30T11:42:33 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 4 DRC violations **
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(100.0000 mm, 78.0000 mm): Segment on Edge.Cuts
-    @(12.2300 mm, 78.1200 mm): Segment of J1 on F.Silkscreen
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(100.0000 mm, 78.0000 mm): Segment on Edge.Cuts
-    @(37.7700 mm, 78.1200 mm): Segment of J1 on F.Silkscreen
 [silk_edge_clearance]: Silkscreen clipped by board edge
     Rule: board setup constraints silk; warning
     @(100.0000 mm, 78.0000 mm): Segment on Edge.Cuts
@@ -19,6 +11,14 @@
     Rule: board setup constraints silk; warning
     @(100.0000 mm, 78.0000 mm): Segment on Edge.Cuts
     @(87.7700 mm, 78.1200 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 78.0000 mm): Segment on Edge.Cuts
+    @(12.2300 mm, 78.1200 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 78.0000 mm): Segment on Edge.Cuts
+    @(37.7700 mm, 78.1200 mm): Segment of J1 on F.Silkscreen
 
 ** Found 0 unconnected pads **
 
