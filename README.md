@@ -80,6 +80,10 @@ by node** (see the v2 correction below for why).
   really matches the 48 V nets; it is not passing trivially.
 - **Drill file:** the hits in the Excellon files were counted (167 PTH + 8 NPTH) and match
   the pads and vias on the board.
+- **Independently re-verified with KiCad 10.0.8 (ERC 0, DRC 0 errors).** A separate reviewer
+  re-ran the checks on another machine with the official libraries. Results: 0
+  unconnected, 0 parity issues, the same 4 XLR silk warnings, and no footprint differs from
+  the library.
 
 ### Waived DRC items
 
@@ -164,9 +168,11 @@ Not done yet from the review, kept as known limitations:
   simulation or test**. The INA163 datasheet does not cover this case.
 - **Creepage value.** I chose the conservative 0.6 mm. If solder mask is counted as a
   coating (IPC-2221B A6/B4), about 0.13 mm would be enough.
-- **Ground split by the rails.** The autorouted ±15 V rails run partly on B.Cu and cut the
-  bottom GND pour. The F.Cu pour and the stitching vias carry the return current, but this
-  has not been analysed.
+- **Ground split by the rails and OUT1.** The autorouted ±15 V rails and the OUT1 track run
+  partly on B.Cu, under the channel-1 input area. They cut the bottom GND pour into a long
+  slot (reviewer note). The F.Cu pour and the stitching vias carry the return current, but
+  this has not been analysed. **Planned for v3:** move these tracks to the board edge or
+  route them tighter, switch to the NC3FAH2 connector and add EMI filtering at the XLR.
 - **Footprint height for C1/C2.** The bi-polar caps use `C_Radial_D10.0mm_H20.0mm_P5.00mm`;
   the real part is 17.5 mm tall. The 2D land pattern is the same; only the 3D height is off.
 - **No SPICE or noise simulation.** Gain, noise and offset come from the datasheet
