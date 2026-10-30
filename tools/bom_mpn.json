@@ -1,0 +1,104 @@
+{
+  "J1,J2": {
+    "Manufacturer": "Neutrik",
+    "MPN": "NC3FAH1",
+    "LCSC": "C368476"
+  },
+  "R1,R2,R11,R12": {
+    "Manufacturer": "UNI-ROYAL",
+    "MPN": "201007F6811T4E",
+    "LCSC": "C407009",
+    "Spec": "6.81k 1% 2010 0.75W 200V"
+  },
+  "JP1,JP2": {
+    "Manufacturer": "Molex",
+    "MPN": "22284030",
+    "LCSC": "C587036",
+    "Spec": "1x3 2.54mm 500V + shunt Sullins SPC02SYAN (LCSC C6297395)"
+  },
+  "R3,R13": {
+    "Manufacturer": "UNI-ROYAL",
+    "MPN": "0805W8F4702T5E",
+    "LCSC": "C17713",
+    "Spec": "47k 1% 0805 150V"
+  },
+  "C1,C2,C11,C12": {
+    "Manufacturer": "Nichicon",
+    "MPN": "UVP1J470MPD",
+    "LCSC": "not stocked (DigiKey)",
+    "Spec": "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M"
+  },
+  "D1,D2,D11,D12": {
+    "Manufacturer": "Nexperia",
+    "MPN": "BAV99,215",
+    "LCSC": "C2500"
+  },
+  "R4,R5,R14,R15": {
+    "Manufacturer": "UNI-ROYAL",
+    "MPN": "0805W8F2201T5E",
+    "LCSC": "C17520",
+    "Spec": "2.2k 1% 0805"
+  },
+  "R6,R7,R16,R17": {
+    "Manufacturer": "UNI-ROYAL",
+    "MPN": "0805W8F470JT5E",
+    "LCSC": "C17714",
+    "Spec": "47R 1% 0805"
+  },
+  "R8,R18": {
+    "Manufacturer": "FOJAN",
+    "MPN": "FRC0805F60R4TS",
+    "LCSC": "C2933479",
+    "Spec": "60.4R 1% 0805 (G=100)"
+  },
+  "U1,U2": {
+    "Manufacturer": "Texas Instruments",
+    "MPN": "INA163UA",
+    "LCSC": "C2868965"
+  },
+  "C3,C4,C13,C14": {
+    "Manufacturer": "YAGEO",
+    "MPN": "CC0805KRX7R9BB104",
+    "LCSC": "C49678",
+    "Spec": "100nF 50V X7R 0805"
+  },
+  "J3": {
+    "Manufacturer": "Molex",
+    "MPN": "22284030",
+    "LCSC": "C587036"
+  },
+  "J4": {
+    "Manufacturer": "Molex",
+    "MPN": "22284020",
+    "LCSC": "C234182"
+  },
+  "J5": {
+    "Manufacturer": "Molex",
+    "MPN": "22284040",
+    "LCSC": "C587039"
+  },
+  "C21,C22": {
+    "Manufacturer": "Samsung Electro-Mechanics",
+    "MPN": "CL31B106KAHNNNE",
+    "LCSC": "C14860",
+    "Spec": "10uF 25V X7R 1206"
+  },
+  "C23": {
+    "Manufacturer": "NJCON",
+    "MPN": "4701010812R00",
+    "LCSC": "C5373423",
+    "Spec": "47uF 100V D8x12 P3.5"
+  },
+  "C24": {
+    "Manufacturer": "Samsung Electro-Mechanics",
+    "MPN": "CL21B104KCFNNNE",
+    "LCSC": "C28233",
+    "Spec": "100nF 100V X7R 0805"
+  },
+  "D21,D22": {
+    "Manufacturer": "Littelfuse",
+    "MPN": "SMAJ16A",
+    "LCSC": "C74561",
+    "Spec": "TVS 16V standoff, 26V clamp, 400W, rail clamp for P48 hot-plug"
+  }
+}

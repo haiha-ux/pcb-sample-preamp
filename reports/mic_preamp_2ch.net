@@ -1,0 +1,4990 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\USER\\Desktop\\test\\pcb-sample-preamp\\mic_preamp_2ch.kicad_sch")
+		(date "2026-10-30T11:25:29")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "mic_preamp_2ch.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "47u 63V NP")
+			(footprint "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "not stocked (DigiKey)")
+				(field
+					(name "MPN") "UVP1J470MPD")
+				(field
+					(name "Manufacturer") "Nichicon")
+				(field
+					(name "Spec") "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "not stocked (DigiKey)")
+			)
+			(property
+				(name "MPN")
+				(value "UVP1J470MPD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nichicon")
+			)
+			(property
+				(name "Spec")
+				(value "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d4ebfc54-9a24-48d8-9ff2-a3eb971d6007")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "47u 63V NP")
+			(footprint "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "not stocked (DigiKey)")
+				(field
+					(name "MPN") "UVP1J470MPD")
+				(field
+					(name "Manufacturer") "Nichicon")
+				(field
+					(name "Spec") "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "not stocked (DigiKey)")
+			)
+			(property
+				(name "MPN")
+				(value "UVP1J470MPD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nichicon")
+			)
+			(property
+				(name "Spec")
+				(value "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "93a89ac1-8d00-4b27-b02c-8c0ff2b5d35a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "MPN") "CC0805KRX7R9BB104")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "100nF 50V X7R 0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "MPN")
+				(value "CC0805KRX7R9BB104")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "100nF 50V X7R 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "38691ea5-94ef-4220-b909-50033c4b8869")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "MPN") "CC0805KRX7R9BB104")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "100nF 50V X7R 0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "MPN")
+				(value "CC0805KRX7R9BB104")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "100nF 50V X7R 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e7ee9539-a177-415a-baf3-a443b84de776")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "47u 63V NP")
+			(footprint "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "not stocked (DigiKey)")
+				(field
+					(name "MPN") "UVP1J470MPD")
+				(field
+					(name "Manufacturer") "Nichicon")
+				(field
+					(name "Spec") "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "not stocked (DigiKey)")
+			)
+			(property
+				(name "MPN")
+				(value "UVP1J470MPD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nichicon")
+			)
+			(property
+				(name "Spec")
+				(value "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b2600e7b-5d52-46e1-8d9d-7c8d73cc571b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "47u 63V NP")
+			(footprint "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "not stocked (DigiKey)")
+				(field
+					(name "MPN") "UVP1J470MPD")
+				(field
+					(name "Manufacturer") "Nichicon")
+				(field
+					(name "Spec") "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+				(field
+					(name "Footprint") "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "not stocked (DigiKey)")
+			)
+			(property
+				(name "MPN")
+				(value "UVP1J470MPD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nichicon")
+			)
+			(property
+				(name "Spec")
+				(value "47uF 63V bi-polar D10x17.5 P5.0; alt Cornell Dubilier 476BPS063M")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f47dd349-95d9-4b64-aa10-72b563001832")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "MPN") "CC0805KRX7R9BB104")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "100nF 50V X7R 0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "MPN")
+				(value "CC0805KRX7R9BB104")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "100nF 50V X7R 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "87dde2dd-03c5-460f-91f4-26bc272a404b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C49678")
+				(field
+					(name "MPN") "CC0805KRX7R9BB104")
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Spec") "100nF 50V X7R 0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
+			)
+			(property
+				(name "MPN")
+				(value "CC0805KRX7R9BB104")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Spec")
+				(value "100nF 50V X7R 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2717493d-0e54-4e52-b29d-049796d80d9a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "10u 25V")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C14860")
+				(field
+					(name "MPN") "CL31B106KAHNNNE")
+				(field
+					(name "Manufacturer") "Samsung Electro-Mechanics")
+				(field
+					(name "Spec") "10uF 25V X7R 1206")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14860")
+			)
+			(property
+				(name "MPN")
+				(value "CL31B106KAHNNNE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung Electro-Mechanics")
+			)
+			(property
+				(name "Spec")
+				(value "10uF 25V X7R 1206")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "335c024d-4cb9-467a-893e-0d4077dd40a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "10u 25V")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C14860")
+				(field
+					(name "MPN") "CL31B106KAHNNNE")
+				(field
+					(name "Manufacturer") "Samsung Electro-Mechanics")
+				(field
+					(name "Spec") "10uF 25V X7R 1206")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C14860")
+			)
+			(property
+				(name "MPN")
+				(value "CL31B106KAHNNNE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung Electro-Mechanics")
+			)
+			(property
+				(name "Spec")
+				(value "10uF 25V X7R 1206")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6140d4aa-5cf9-499b-ab65-1ac7627a74f9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "47u 100V")
+			(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C5373423")
+				(field
+					(name "MPN") "4701010812R00")
+				(field
+					(name "Manufacturer") "NJCON")
+				(field
+					(name "Spec") "47uF 100V D8x12 P3.5")
+				(field
+					(name "Footprint") "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C5373423")
+			)
+			(property
+				(name "MPN")
+				(value "4701010812R00")
+			)
+			(property
+				(name "Manufacturer")
+				(value "NJCON")
+			)
+			(property
+				(name "Spec")
+				(value "47uF 100V D8x12 P3.5")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1be782fb-5f58-4554-96c6-cc33bbfbde87")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "100n 100V")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "LCSC") "C28233")
+				(field
+					(name "MPN") "CL21B104KCFNNNE")
+				(field
+					(name "Manufacturer") "Samsung Electro-Mechanics")
+				(field
+					(name "Spec") "100nF 100V X7R 0805")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "LCSC")
+				(value "C28233")
+			)
+			(property
+				(name "MPN")
+				(value "CL21B104KCFNNNE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung Electro-Mechanics")
+			)
+			(property
+				(name "Spec")
+				(value "100nF 100V X7R 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a95d6dd9-ac6f-49a7-b4cc-4a6ed9b0e961")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "BAV99")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+			(description "BAV99 High-speed switching diodes, SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C2500")
+				(field
+					(name "MPN") "BAV99,215")
+				(field
+					(name "Manufacturer") "Nexperia")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+				(field
+					(name "Description") "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(libsource
+				(lib "Diode")
+				(part "BAV99")
+				(description "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(property
+				(name "LCSC")
+				(value "C2500")
+			)
+			(property
+				(name "MPN")
+				(value "BAV99,215")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nexperia")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a2d72899-8460-4c60-96bc-806ab2d8a473")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "BAV99")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+			(description "BAV99 High-speed switching diodes, SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C2500")
+				(field
+					(name "MPN") "BAV99,215")
+				(field
+					(name "Manufacturer") "Nexperia")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+				(field
+					(name "Description") "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(libsource
+				(lib "Diode")
+				(part "BAV99")
+				(description "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(property
+				(name "LCSC")
+				(value "C2500")
+			)
+			(property
+				(name "MPN")
+				(value "BAV99,215")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nexperia")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "82dc5207-a827-48ec-825e-31b6ac476be9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D11")
+			(value "BAV99")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+			(description "BAV99 High-speed switching diodes, SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C2500")
+				(field
+					(name "MPN") "BAV99,215")
+				(field
+					(name "Manufacturer") "Nexperia")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+				(field
+					(name "Description") "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(libsource
+				(lib "Diode")
+				(part "BAV99")
+				(description "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(property
+				(name "LCSC")
+				(value "C2500")
+			)
+			(property
+				(name "MPN")
+				(value "BAV99,215")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nexperia")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "263fe120-7945-4044-9df5-11c24b74ed49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D12")
+			(value "BAV99")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+			(description "BAV99 High-speed switching diodes, SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C2500")
+				(field
+					(name "MPN") "BAV99,215")
+				(field
+					(name "Manufacturer") "Nexperia")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+				(field
+					(name "Description") "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(libsource
+				(lib "Diode")
+				(part "BAV99")
+				(description "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(property
+				(name "LCSC")
+				(value "C2500")
+			)
+			(property
+				(name "MPN")
+				(value "BAV99,215")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nexperia")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e0cbe80f-5119-4ace-b165-c2098628ac0d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D21")
+			(value "SMAJ16A")
+			(footprint "Diode_SMD:D_SMA")
+			(datasheet "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+			(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			(fields
+				(field
+					(name "LCSC") "C74561")
+				(field
+					(name "MPN") "SMAJ16A")
+				(field
+					(name "Manufacturer") "Littelfuse")
+				(field
+					(name "Spec") "TVS 16V standoff, 26V clamp, 400W, rail clamp for P48 hot-plug")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+				(field
+					(name "Description") "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(libsource
+				(lib "Diode")
+				(part "SMAJ16A")
+				(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(property
+				(name "LCSC")
+				(value "C74561")
+			)
+			(property
+				(name "MPN")
+				(value "SMAJ16A")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Littelfuse")
+			)
+			(property
+				(name "Spec")
+				(value "TVS 16V standoff, 26V clamp, 400W, rail clamp for P48 hot-plug")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "unidirectional diode TVS voltage suppressor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SMA*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "14542ea1-4d57-44fd-93a9-57beaef1933f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D22")
+			(value "SMAJ16A")
+			(footprint "Diode_SMD:D_SMA")
+			(datasheet "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+			(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			(fields
+				(field
+					(name "LCSC") "C74561")
+				(field
+					(name "MPN") "SMAJ16A")
+				(field
+					(name "Manufacturer") "Littelfuse")
+				(field
+					(name "Spec") "TVS 16V standoff, 26V clamp, 400W, rail clamp for P48 hot-plug")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+				(field
+					(name "Description") "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(libsource
+				(lib "Diode")
+				(part "SMAJ16A")
+				(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(property
+				(name "LCSC")
+				(value "C74561")
+			)
+			(property
+				(name "MPN")
+				(value "SMAJ16A")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Littelfuse")
+			)
+			(property
+				(name "Spec")
+				(value "TVS 16V standoff, 26V clamp, 400W, rail clamp for P48 hot-plug")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "unidirectional diode TVS voltage suppressor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SMA*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d72dcff5-cc65-4355-b9a4-e28f847b820e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0c2a99d5-70df-40b1-9439-0a47dde1f67d")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "08413233-40f0-4dc6-9dff-5409735684a4")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5ad14938-97c3-4002-afce-20f9cc528789")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "M3")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e579b801-13bc-4746-ab5d-382dc9d4542d")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "NC3FAH1")
+			(footprint "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal")
+			(description "XLR Connector, Male or Female, 3 Pins")
+			(fields
+				(field
+					(name "LCSC") "C368476")
+				(field
+					(name "MPN") "NC3FAH1")
+				(field
+					(name "Manufacturer") "Neutrik")
+				(field
+					(name "Footprint") "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "XLR Connector, Male or Female, 3 Pins")
+			)
+			(libsource
+				(lib "Connector_Audio")
+				(part "XLR3")
+				(description "XLR Connector, Male or Female, 3 Pins")
+			)
+			(property
+				(name "LCSC")
+				(value "C368476")
+			)
+			(property
+				(name "MPN")
+				(value "NC3FAH1")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Neutrik")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "xlr connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jack*XLR*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd036a2b-532a-4788-ba53-8bdc5fef733a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "NC3FAH1")
+			(footprint "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal")
+			(description "XLR Connector, Male or Female, 3 Pins")
+			(fields
+				(field
+					(name "LCSC") "C368476")
+				(field
+					(name "MPN") "NC3FAH1")
+				(field
+					(name "Manufacturer") "Neutrik")
+				(field
+					(name "Footprint") "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "XLR Connector, Male or Female, 3 Pins")
+			)
+			(libsource
+				(lib "Connector_Audio")
+				(part "XLR3")
+				(description "XLR Connector, Male or Female, 3 Pins")
+			)
+			(property
+				(name "LCSC")
+				(value "C368476")
+			)
+			(property
+				(name "MPN")
+				(value "NC3FAH1")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Neutrik")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "xlr connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jack*XLR*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c17f3792-8d5f-47ae-b342-04fd63ae7dbc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "PWR +15/GND/-15")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "LCSC") "C587036")
+				(field
+					(name "MPN") "22284030")
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x03")
+				(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C587036")
+			)
+			(property
+				(name "MPN")
+				(value "22284030")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Molex")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd7f13c6-20d4-41e4-9c70-24368087b1e2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "P48 +48/GND")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "LCSC") "C234182")
+				(field
+					(name "MPN") "22284020")
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x02")
+				(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C234182")
+			)
+			(property
+				(name "MPN")
+				(value "22284020")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Molex")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fb168c62-b6e0-4e45-b40a-9fa2fb21155e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "OUT1/GND/OUT2/GND")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(fields
+				(field
+					(name "LCSC") "C587039")
+				(field
+					(name "MPN") "22284040")
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(libsource
+				(lib "Connector_Generic")
+				(part "Conn_01x04")
+				(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(property
+				(name "LCSC")
+				(value "C587039")
+			)
+			(property
+				(name "MPN")
+				(value "22284040")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Molex")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "162ac7a4-8fee-49b1-b34c-4c493e069fbc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP1")
+			(value "P48 ON=1-2 OFF=2-3")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Jumper, 3-pole, both open")
+			(fields
+				(field
+					(name "LCSC") "C587036")
+				(field
+					(name "MPN") "22284030")
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Spec") "1x3 2.54mm 500V + shunt Sullins SPC02SYAN (LCSC C6297395)")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Jumper, 3-pole, both open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "Jumper_3_Open")
+				(description "Jumper, 3-pole, both open")
+			)
+			(property
+				(name "LCSC")
+				(value "C587036")
+			)
+			(property
+				(name "MPN")
+				(value "22284030")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Molex")
+			)
+			(property
+				(name "Spec")
+				(value "1x3 2.54mm 500V + shunt Sullins SPC02SYAN (LCSC C6297395)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Jumper SPDT")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "21334e68-b58e-4e95-862b-c1bac0973663")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP2")
+			(value "P48 ON=1-2 OFF=2-3")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Jumper, 3-pole, both open")
+			(fields
+				(field
+					(name "LCSC") "C587036")
+				(field
+					(name "MPN") "22284030")
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Spec") "1x3 2.54mm 500V + shunt Sullins SPC02SYAN (LCSC C6297395)")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Jumper, 3-pole, both open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "Jumper_3_Open")
+				(description "Jumper, 3-pole, both open")
+			)
+			(property
+				(name "LCSC")
+				(value "C587036")
+			)
+			(property
+				(name "MPN")
+				(value "22284030")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Molex")
+			)
+			(property
+				(name "Spec")
+				(value "1x3 2.54mm 500V + shunt Sullins SPC02SYAN (LCSC C6297395)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Jumper SPDT")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2ff0a8d5-65d4-4ef6-adc8-5deea4c0c293")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "6.81k")
+			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C407009")
+				(field
+					(name "MPN") "201007F6811T4E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C407009")
+			)
+			(property
+				(name "MPN")
+				(value "201007F6811T4E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "6.81k 1% 2010 0.75W 200V")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "80e7603c-a340-4cd1-96df-f37c9132bd9e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "6.81k")
+			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C407009")
+				(field
+					(name "MPN") "201007F6811T4E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C407009")
+			)
+			(property
+				(name "MPN")
+				(value "201007F6811T4E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "6.81k 1% 2010 0.75W 200V")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe24674f-0b3c-4eb0-908d-1d86f128806c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "47k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17713")
+				(field
+					(name "MPN") "0805W8F4702T5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "47k 1% 0805 150V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17713")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F4702T5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "47k 1% 0805 150V")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "26eceda5-6602-452e-811f-cd4295190652")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17520")
+				(field
+					(name "MPN") "0805W8F2201T5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "2.2k 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17520")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F2201T5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "2.2k 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e975c6c6-c424-468a-97ef-df217b3c4356")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17520")
+				(field
+					(name "MPN") "0805W8F2201T5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "2.2k 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17520")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F2201T5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "2.2k 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "896d7c2d-ef6d-43d9-9b4f-21e8f7a60a46")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "47R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17714")
+				(field
+					(name "MPN") "0805W8F470JT5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "47R 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17714")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F470JT5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "47R 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "76be6068-0efd-4b15-8d8c-8f4abef806d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "47R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17714")
+				(field
+					(name "MPN") "0805W8F470JT5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "47R 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17714")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F470JT5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "47R 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c8bec70b-3e03-4cc9-9106-53a2ecd5c690")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "60.4R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C2933479")
+				(field
+					(name "MPN") "FRC0805F60R4TS")
+				(field
+					(name "Manufacturer") "FOJAN")
+				(field
+					(name "Spec") "60.4R 1% 0805 (G=100)")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C2933479")
+			)
+			(property
+				(name "MPN")
+				(value "FRC0805F60R4TS")
+			)
+			(property
+				(name "Manufacturer")
+				(value "FOJAN")
+			)
+			(property
+				(name "Spec")
+				(value "60.4R 1% 0805 (G=100)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b8fb3125-194e-4991-9ae4-266857034e38")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "6.81k")
+			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C407009")
+				(field
+					(name "MPN") "201007F6811T4E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C407009")
+			)
+			(property
+				(name "MPN")
+				(value "201007F6811T4E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "6.81k 1% 2010 0.75W 200V")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e37259ff-9cd6-4cb2-ae3c-fd5170fe312e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "6.81k")
+			(footprint "Resistor_SMD:R_2010_5025Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C407009")
+				(field
+					(name "MPN") "201007F6811T4E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "6.81k 1% 2010 0.75W 200V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2010_5025Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C407009")
+			)
+			(property
+				(name "MPN")
+				(value "201007F6811T4E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "6.81k 1% 2010 0.75W 200V")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d8f99865-9df8-4786-81a5-86b2daea4d95")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "47k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17713")
+				(field
+					(name "MPN") "0805W8F4702T5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "47k 1% 0805 150V")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17713")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F4702T5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "47k 1% 0805 150V")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a00b97b2-cc1c-4150-882a-ad6f699d99ce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17520")
+				(field
+					(name "MPN") "0805W8F2201T5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "2.2k 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17520")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F2201T5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "2.2k 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "57736103-ae22-4ce6-970c-abc96b094e7b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "2.2k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17520")
+				(field
+					(name "MPN") "0805W8F2201T5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "2.2k 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17520")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F2201T5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "2.2k 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d3978eb5-f58f-47c4-8d65-1958b492d46c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "47R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17714")
+				(field
+					(name "MPN") "0805W8F470JT5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "47R 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17714")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F470JT5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "47R 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ea03c645-9e40-4d89-a035-c52507a6f78d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "47R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C17714")
+				(field
+					(name "MPN") "0805W8F470JT5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "Spec") "47R 1% 0805")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C17714")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F470JT5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "Spec")
+				(value "47R 1% 0805")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a8b7f7da-85a4-4422-a42f-b941e869bbb7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "60.4R")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "LCSC") "C2933479")
+				(field
+					(name "MPN") "FRC0805F60R4TS")
+				(field
+					(name "Manufacturer") "FOJAN")
+				(field
+					(name "Spec") "60.4R 1% 0805 (G=100)")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "LCSC")
+				(value "C2933479")
+			)
+			(property
+				(name "MPN")
+				(value "FRC0805F60R4TS")
+			)
+			(property
+				(name "Manufacturer")
+				(value "FOJAN")
+			)
+			(property
+				(name "Spec")
+				(value "60.4R 1% 0805 (G=100)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2fe758bf-a363-4007-b370-806a1f990710")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "INA163UA")
+			(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/ina163.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2868965")
+				(field
+					(name "MPN") "INA163UA")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Footprint") "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ina163.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "preamp")
+				(part "INA163UA")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2868965")
+			)
+			(property
+				(name "MPN")
+				(value "INA163UA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4860b1ab-5766-466b-8454-1ce35432acf0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "INA163UA")
+			(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/ina163.pdf")
+			(fields
+				(field
+					(name "LCSC") "C2868965")
+				(field
+					(name "MPN") "INA163UA")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Footprint") "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ina163.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "preamp")
+				(part "INA163UA")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C2868965")
+			)
+			(property
+				(name "MPN")
+				(value "INA163UA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Sheetname")
+				(value "mic_preamp_2ch")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mic_preamp_2ch.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "147994b4-c2e6-4c87-a2b0-c665280f72e6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector_Audio")
+			(part "XLR3")
+			(description "XLR Connector, Male or Female, 3 Pins")
+			(footprints
+				(fp "Jack*XLR*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "XLR3")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "XLR Connector, Male or Female, 3 Pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x02")
+			(description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x03")
+			(description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector_Generic")
+			(part "Conn_01x04")
+			(description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "BAV99")
+			(description "BAV99 High-speed switching diodes, SOT-23")
+			(docs "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "BAV99")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf")
+				(field
+					(name "Description") "BAV99 High-speed switching diodes, SOT-23")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "K")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "SMAJ16A")
+			(description "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			(docs "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+			(footprints
+				(fp "D*SMA*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "SMAJ16A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet") "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet")
+				(field
+					(name "Description") "400W unidirectional Transient Voltage Suppressor, 16.0Vr, SMA(DO-214AC)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Jumper")
+			(part "Jumper_3_Open")
+			(description "Jumper, 3-pole, both open")
+			(footprints
+				(fp "Jumper*")
+				(fp "TestPoint*3Pads*")
+				(fp "TestPoint*Bridge*")
+			)
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "Jumper_3_Open")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Jumper, 3-pole, both open")
+				(field
+					(name "KLC_S5.1") "This is a generic symbol, it has fp-filter, but no default footprint")
+				(field
+					(name "KLC_S3.3") "Graphical-Symbol: thickness is 6mm, fill is background")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "preamp")
+			(part "INA163UA")
+			(docs "https://www.ti.com/lit/ds/symlink/ina163.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "INA163UA")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ina163.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VO1")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "3")
+					(name "GS1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "VIN-")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "VIN+")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "8")
+					(name "Sense")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "VO")
+					(type "output")
+				)
+				(pin
+					(num "10")
+					(name "Ref")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "12")
+					(name "GS2")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "14")
+					(name "VO2")
+					(type "output")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector_Audio")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Audio.kicad_sym")
+		)
+		(library
+			(logical "Connector_Generic")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Diode")
+			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
+		)
+		(library
+			(logical "Jumper")
+			(uri "${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "preamp")
+			(uri "${KIPRJMOD}/lib/preamp.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/+15V")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D11")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D12")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D21")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "V+_11")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "V+_11")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/+48V")
+			(class "Default")
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/-15V")
+			(class "Default")
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D11")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D12")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D22")
+				(pin "2")
+				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "V-_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "V-_6")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "4")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D21")
+				(pin "2")
+				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D22")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "Ref_10")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "Ref_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/IN1N")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "VIN-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "6")
+			(name "/IN1N_PROT")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "3")
+				(pinfunction "K_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/IN1P")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "VIN+_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "8")
+			(name "/IN1P_PROT")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "3")
+				(pinfunction "K_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/IN2N")
+			(class "Default")
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "VIN-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "/IN2N_PROT")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D12")
+				(pin "3")
+				(pinfunction "K_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/IN2P")
+			(class "Default")
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "VIN+_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/IN2P_PROT")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D11")
+				(pin "3")
+				(pinfunction "K_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/OUT1")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "Sense_8")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "VO_9")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "14")
+			(name "/OUT2")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "Sense_8")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "VO_9")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "15")
+			(name "/P48OFF1")
+			(class "Default")
+			(node
+				(ref "JP1")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/P48OFF2")
+			(class "Default")
+			(node
+				(ref "JP2")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/PH1")
+			(class "Default")
+			(node
+				(ref "JP1")
+				(pin "2")
+				(pinfunction "C_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/PH2")
+			(class "Default")
+			(node
+				(ref "JP2")
+				(pin "2")
+				(pinfunction "C_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/RG1A")
+			(class "Default")
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GS1_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/RG1B")
+			(class "Default")
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "GS2_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/RG2A")
+			(class "Default")
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "GS1_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/RG2B")
+			(class "Default")
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "GS2_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/XLR1_COLD")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/XLR1_HOT")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/XLR2_COLD")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/XLR2_HOT")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(U1-NC-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "NC_2")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(U1-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(U1-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(U1-VO1-Pad1)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "VO1_1")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U1-VO2-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "VO2_14")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U2-NC-Pad2)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "NC_2")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U2-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U2-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U2-VO1-Pad1)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "VO1_1")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U2-VO2-Pad14)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "VO2_14")
+				(pintype "output+no_connect")
+			)
+		)
+	)
+)

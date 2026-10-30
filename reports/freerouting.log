@@ -1,0 +1,28 @@
+2026-10-30 11:25:32.392 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-10-30 11:25:33.766 INFO   New version available: v2.5.0
+2026-10-30 11:25:33.785 INFO   [824772\85FFB8] Loading board file 'route.dsn'...
+2026-10-30 11:25:33.843 INFO   [824772\85FFB8] Job '824772\85FFB8' started at 2026-10-30T04:25:33.843215600Z.
+2026-10-30 11:25:33.915 INFO   [824772\85FFB8] Fanout stage started on board 'b04825b50ae3c7fb778464fd7aa4c05a' with 80 of 90 SMD pins needing fanout (10 already connected, 0 netless).
+2026-10-30 11:25:34.735 INFO   [824772\85FFB8] Fanout pass #1 on board 'accc4f87c120dabc0a5bf9f2f1f232bc' completed in 0.78 seconds with 80 SMD pins fanouted, 0 not routed, 0 insert errors, +43 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-10-30 11:25:34.837 INFO   [824772\85FFB8] Fanout pass #2 on board 'aafc80517b750f2e3c2936ca417c9bb9' completed in 0.08 seconds with 2 SMD pins fanouted, 0 not routed, 0 insert errors, +2 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-10-30 11:25:34.895 INFO   [824772\85FFB8] Fanout pass #3 on board 'aafc80517b750f2e3c2936ca417c9bb9' completed in 0.05 seconds with 0 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-10-30 11:25:34.909 INFO   [824772\85FFB8] Fanout stage completed: started with 90 total SMD pins, completed in 0.97 seconds, escaped pins: 80/90 (88.9%), using 0.92 total CPU seconds, 2.14 GB total allocated, and 248.5 MB peak heap usage.
+2026-10-30 11:25:34.914 INFO   [824772\85FFB8] Auto-routing stage started on board 'aafc80517b750f2e3c2936ca417c9bb9' for 50 unrouted items.
+2026-10-30 11:25:40.633 INFO   [824772\85FFB8] Auto-routing pass #1 on board 'aafc80517b750f2e3c2936ca417c9bb9' was completed in 5.68 seconds with score 964.70 (3 unrouted and 0 violations), using 3.52 CPU seconds and the job allocated 9.89 GB of memory so far.
+2026-10-30 11:25:41.301 INFO   [824772\85FFB8] Auto-routing pass #2 on board '59c7b625b8115e2fd6882243eda0f0e5' was completed in 0.56 seconds with score 999.99 (0 unrouted and 0 violations), using 4.31 CPU seconds and the job allocated 13.74 GB of memory so far.
+2026-10-30 11:25:41.467 INFO   [824772\85FFB8] Auto-routing pass #3 on board '57f5040213b4ee283fb9cc276c7bbe5b' was completed in 0.06 seconds with score 999.99 (0 unrouted and 0 violations), using 4.31 CPU seconds and the job allocated 13.74 GB of memory so far.
+2026-10-30 11:25:41.600 INFO   [824772\85FFB8] Auto-routing stage completed: started with 85 unrouted nets, completed in 7.67 seconds, final score: 999.99 (0 unrouted and 0 violations), using 4.31 total CPU seconds, 13.74 GB total allocated, and 276.9 MB peak heap usage.
+2026-10-30 11:25:41.645 INFO   [824772\85FFB8] Optimization stage started on board '6eb9dec9378bb24d1b60b3da1e1e7fa8' with score 999.99 (0 unrouted and 0 violations).
+2026-10-30 11:25:41.698 INFO   [824772\85FFB8] Stopping optimizer because the current board score (999.99) is already close to the maximum score (1000). Remaining potential improvement is less than the threshold (1.00%).
+2026-10-30 11:25:41.742 INFO   [824772\85FFB8] Optimization stage completed: started with score 999.99 (0 unrouted and 0 violations), completed in 0.05 seconds, final score: 999.99 (0 unrouted and 0 violations), using 0.06 total CPU seconds, 0.21 GB total allocated, and 327.0 MB peak heap usage.
+2026-10-30 11:25:41.756 INFO   [824772\85FFB8] Job '824772\85FFB8' finished with state: COMPLETED (elapsed: 7.91 seconds, finished at UTC: 2026-10-30T04:25:41.755771200Z).
+2026-10-30 11:25:42.220 INFO   Saving output file 'C:\Users\USER\Desktop\test\pcb-sample-preamp\reports\route.ses' (SES)...
+2026-10-30 11:25:42.223 INFO   Successfully saved output file 'C:\Users\USER\Desktop\test\pcb-sample-preamp\reports\route.ses' (25997 bytes).
+
+????????????????????????????????????????????????????????????????????
+?           Thank you for using Freerouting!                       ?
+?                                                                  ?
+?  If you would like to support the project, please visit          ?
+?  https://www.freerouting.app/donate.html                         ?
+?  Every contribution helps keep this project open and active!     ?
+????????????????????????????????????????????????????????????????????

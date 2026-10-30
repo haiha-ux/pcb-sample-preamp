@@ -1,0 +1,18 @@
+(version 1)
+
+# Cac net co the mang 48 V phantom. Khe 0.6 mm = IPC-2221B bang 6-1 cot B2
+# (day dan ngoai, khong phu, <3050 m) cho 31-150 V. Lop phu soldermask KHONG
+# duoc tinh la "permanent polymer coating" o day — gia dinh than trong.
+(rule "P48 creepage"
+  (condition "A.NetName == '/+48V' || A.NetName == '/PH1' || A.NetName == '/PH2' || A.NetName == '/XLR1_HOT' || A.NetName == '/XLR1_COLD' || A.NetName == '/XLR2_HOT' || A.NetName == '/XLR2_COLD' || A.NetName == '/P48OFF1' || A.NetName == '/P48OFF2'")
+  (constraint clearance (min 0.6mm)))
+
+# Duong phan phoi +/-15V >= 0.4 mm. Doan noi cuc bo IC <-> tu decoupling 100n (dong vai mA)
+# duoc phep that lai khi vao pad SOIC-14 / 0805, nhung khong mong hon 0.3 mm.
+(rule "Power track width"
+  (condition "(A.NetName == '/+15V' || A.NetName == '/-15V') && !A.intersectsCourtyard('U*') && !A.intersectsCourtyard('C3') && !A.intersectsCourtyard('C4') && !A.intersectsCourtyard('C13') && !A.intersectsCourtyard('C14')")
+  (constraint track_width (min 0.4mm)))
+
+(rule "Power neck-down at IC and decoupling"
+  (condition "(A.NetName == '/+15V' || A.NetName == '/-15V') && (A.intersectsCourtyard('U*') || A.intersectsCourtyard('C3') || A.intersectsCourtyard('C4') || A.intersectsCourtyard('C13') || A.intersectsCourtyard('C14'))")
+  (constraint track_width (min 0.3mm)))
